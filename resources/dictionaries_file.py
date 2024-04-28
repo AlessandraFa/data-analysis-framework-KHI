@@ -136,6 +136,14 @@ remove_list = ['iconclass_code', 'primary_iconography',
                "obj_architecture_detail_localization", "obj_architecture_detail_description",
                "text_position_in_artwork", 'document_status']
 
+artwork_info = ['obj_id', 'obj_id_level2', 'obj_id_level3', 'obj_id_level4', 'obj_id_level5', 'artist', 'other_artist_attribution', 'date',
+                     'title', 'status', 'genre', 'type_description', 'type_description', 'type_category', 'type_shape', 'material',
+                     'technique', 'dimension_heightwidth', 'dimension_type', 'dimension_value', 'iconography', 'object_administrator', 'institution_location', 'institution_name',
+                     'hosting_building', 'building_location', 'building_name', 'ref_relationship', 'ref_obj_id', 'location_obj_architecture', 'obj_architecture_detail', 'text_in_artwork',
+                     'secondary_iconography', 'architecture_carrier', 'person', 'photo_id']
+
+object_id_list = ['obj_id', 'obj_id_level2', 'obj_id_level3', 'obj_id_level4', 'obj_id_level5']
+
 '''
 dict_iconography = {
     'a5500': 'primary_iconography', # (dict)
