@@ -1,1 +1,1 @@
-# Framework for Analysis of Photographic Archival Data of the Kunsthistorisches Institut in Florenz
+# Framework for the Analysis of Photographic Archival Data of the Kunsthistorisches Institut in Florenz
