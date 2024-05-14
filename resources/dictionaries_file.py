@@ -153,7 +153,7 @@ remove_list = ['iconclass_code', 'primary_iconography',
                 "locality_obj_architecture", "street_place_obj_architecture",
                "house_number_obj_architecture",
                "obj_architecture_detail_localization", "obj_architecture_detail_description",
-               "text_position_in_artwork", 'document_status']
+               "text_position_in_artwork"]
 
 append_list = ['iconography','artist',"other_artist_attribution",
                'date', 'dimension_type', 'object_administrator',
