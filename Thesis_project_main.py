@@ -310,22 +310,18 @@ class CollectionOfPhotos:  # contains dataframe with all photographs
         top_value_counts = value_counts.head(bar_nr)
         num_bars = len(top_value_counts)
 
-        # Set up the seaborn style and figure size
         plt.figure(figsize=(num_bars * 0.6, 6))
-        sns.barplot(x=top_value_counts.index, y=top_value_counts.values, hue=top_value_counts.index, palette=("Blues_r"), dodge=False).legend_.remove()
+        sns.barplot(x=top_value_counts.index, y=top_value_counts.values, hue=top_value_counts.index, palette=("Blues_r"), dodge=False)
 
-        # Customize the plot
+
         plt.title(f'Number of photos by {key}', fontsize=14)
         plt.xticks(rotation=45, ha='right', fontsize=10)
         plt.xlabel('')
         plt.ylabel('')
+        plt.legend([], [], frameon=False)
         sns.despine(left=True)  # Remove the left spine
-
-        # Add annotations (value counts) to the bars
         for i, v in enumerate(top_value_counts):
             plt.text(i, v + 0.5, str(int(v)), ha='center', va='bottom', fontsize=10, color='black')
-
-        plt.tight_layout()
 
     def get_value_counts(self, key, mode):
         # handle lists
