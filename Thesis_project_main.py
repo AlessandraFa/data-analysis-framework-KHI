@@ -376,7 +376,7 @@ class CollectionOfPhotos:  # contains dataframe with all photographs
                                                colors=sns.color_palette('muted'), wedgeprops = { 'linewidth' : 2, 'edgecolor' : 'white' })
 
             # Create legend with labels in "Label: percent" format
-            legend_labels = [f'{label}: {value_counts[i] / sum(value_counts) * 100:.1f}%'
+            legend_labels = [f'{label}: {value_counts.iloc[i] / sum(value_counts) * 100:.1f}%'
                              for i, label in enumerate(value_labels)]
 
             # Add legend at the utmost right
