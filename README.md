@@ -96,4 +96,4 @@ This project owes its realization to the collaboration of the  [Photothek](https
 For assistance or questions please contact [Alessandra Failla](alessandra.failla@hotmail.it).
 
 ## License
-This project is licensed under the GNU General Public License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
