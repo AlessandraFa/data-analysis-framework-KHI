@@ -14,7 +14,7 @@ This framework includes tools for analyzing and visualizing photographic archiva
 This framework is for scholars, researchers, and anyone interested in analyzing the Photothek's collections. It's especially helpful for users with little or no programming knowledge.
 ### What is Jupyter Notebook?
 Jupyter Notebook is a web app that lets you create and share documents with live code, equations, visualizations, and text. It's popular in data science and research.
-### Why Use Binder?
+### Why use Binder?
 Binder is an online platform that allows you to run Jupyter Notebooks in your web browser without needing to install any software. It's a convenient tool for users who want to analyze data interactively.
 ### What kind of data can I analyse?
 You can analyze your own Photothek datasets if you have requested and obtained them from the KHI, or you can use the provided test datasets. The datasets should be in XML format.
